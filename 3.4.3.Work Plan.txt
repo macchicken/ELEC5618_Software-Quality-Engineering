@@ -1,0 +1,67 @@
+1.Software Quality:
+A product can be used as it was intended or within some range of errors.---from class sides week 1
+1. The degree to which a system, component, or process meets specified
+requirements.
+2. The degree to which a system, component, or process meets customer or
+user needs or expectations.
+--- from 24 page of Software-Quality-Assurance-From-Theory-to-Implementation_DANIEL GALIN 2.4 Software quality ¨C definition
+
+
+2. What is the purpose, tasks, mechanisms, aims and means that are part of ¡°Software Quality Engineering¡±?
+The purpose is to ensure required level of quality of a software prodcut is achieved.
+
+Tasks are to define appropriate quality standards and procedures and ensure that those are followed.
+And also aiming to build a quality culture in a working enviroment where everyone see quality as their responsibility.
+We establish organisational procedures and standards as mechanisms for ensuring certain level of quality.
+All those means the project to build a software product would satisfy the requirements
+---from class sides week 1, page 3
+
+3. What is the difference between Quality Planning, Assurance, and Control in a software development environment?
+
+Quality Planning starts before the begginning of development process, to identify and select the suitable quality
+standards for certain project and plan how to satisfy them.
+Druing the development cycle, we Periodically evaluate the whole performance of the project,
+ensure the satisficaiton of standards for Assurance purpose.
+And also, we use certain mechanisms to control outcome results of the project,
+ensure they meet and follow the standards and procedures.
+--- from class sides week 1, page 4
+
+4. Describe what is a ¡°Software Requirement Specification¡±, what is it used for? What is its purpose?
+
+It describes the needs from the users and the constraints on the software in specification documents,
+and what the software would do and not expected to do.
+It is to produce an agreement between customers and suppliers and reduce the chances of later redesign.
+Relevant people could understand functions of the software and reliability,security,
+performance,usability,availability,portability constraints and external behaviour of it from those documents.
+--- from class sides week 1, page 6-7
+
+Reliability: Mean time to failure,Probability of unavailability,Rate of failure occurrence,Availability
+Robustness and Portability: Time to restart failures,Percentage of events causing failures,
+Probability of data corruption on failure,Percentage of target-dependent statements,
+Number of target systems.
+
+
+5.What is the People Capability Maturity Model? How many stages does it contain? Where would that be relevant in a software development environment? 
+It is a tool that helps you successfully address the critical people issues in your organization.
+It employs the process maturity framework for managing and developing an organization¡¯s workforce.
+--- from People Capability Maturity Model (P¨CCMM ) Version 2.0(People-CMM-01mm001) chapter 1.1
+It contains five five maturity stage levels that establish successive foundations for
+continuously improving individual competencies, developing effective teams, motivating improved performance,
+and shaping the workforce the organization needs to accomplish its future business plans
+--- from People Capability Maturity Model (P¨CCMM ) Version 2.0(People-CMM-01mm001) chapter 1.1
+Not real relevant in a software development environment, since development environment is the set of processes and
+programming tools, such as severs and IDE, to create a specific software product.P-CCM mainly focues on the issues of
+managing people.
+
+
+
+6.Suppose you hear about the quality measures that are being used at a competing company. One of them is ¡°Code inspections must be done at least at two different levels of the hierarchy¡±. What do you think these means in the context of SQE?
+One part of SQE is to ensure the software product comply with the relevant quality standards, such as delivering within range of error, code inspections would done by another reviewed teams, helping them address the design and code quality issues before deploymenting into production enviroment.
+And also more than two different levels would give the reviews in less error-prone.
+
+
+
+7. You also hear that the rival company has different ¡°channels¡± in which different versions of the product are manipulated. One of them is called the ¡°release channel¡±, which is the one in which the released version of the product is manipulated. They tell you that they use three more channels. Can you imagine what are those and what version of the product is manipulated?
+development channel: managing products in the developing processes
+testing channel: managing products in the testing processes
+beta release channel: products maybe in unstable version and taking the user accompany test involving invited person
