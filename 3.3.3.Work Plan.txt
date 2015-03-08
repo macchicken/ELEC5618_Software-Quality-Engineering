@@ -18,8 +18,11 @@ d. specify configuration management tools and procedures(include change-control 
 
 
 
-2.hat measures would you deploy and in which context related to "Quality Assurance"?
+2.what measures would you deploy and in which context related to "Quality Assurance"?
 
+Decide a certain level of performance of software would meet the requirement over the next years.
+Initiating and managing activities to improve and increase the efficiency of system maintenance while
+increasing number of people using the system in different enviroment.
 
 
 3.What measures would you deploy and in which context related to "Quality Control"?
