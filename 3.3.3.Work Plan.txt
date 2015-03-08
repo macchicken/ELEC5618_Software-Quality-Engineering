@@ -9,7 +9,12 @@ The name of the company suggest a higher-than average compromise with software q
 
 1.What measures would you deploy and in which context related to "Quality Planning"?
 
-
+a. Setting quality goals to provide developer with more objective assessments of software performance during
+the development process ans system testing.
+b. plann designs, code inspections and reviews or other review activity.
+c. plann software tests(unit, integration or whole system) with complete list of tests,
+or acceptance tests for external software.
+d. specify configuration management tools and procedures(include change-control procedures).
 
 
 

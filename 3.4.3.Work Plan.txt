@@ -46,13 +46,19 @@ Number of target systems.
 It is a tool that helps you successfully address the critical people issues in your organization.
 It employs the process maturity framework for managing and developing an organization¡¯s workforce.
 --- from People Capability Maturity Model (P¨CCMM ) Version 2.0(People-CMM-01mm001) chapter 1.1
-It contains five five maturity stage levels that establish successive foundations for
+It contains five maturity stage levels that establish successive foundations for
 continuously improving individual competencies, developing effective teams, motivating improved performance,
 and shaping the workforce the organization needs to accomplish its future business plans
 --- from People Capability Maturity Model (P¨CCMM ) Version 2.0(People-CMM-01mm001) chapter 1.1
-Not real relevant in a software development environment, since development environment is the set of processes and
-programming tools, such as severs and IDE, to create a specific software product.P-CCM mainly focues on the issues of
-managing people.
+At level 2, organizations establish a stable development enviroment in which to perform professional work,
+and enable people to repeat practices they have used successfully in the past that may benefit the development process.
+At level 3, organizations identifies its best practices in its unique development environment and 
+integrates them into a common process, then make them as standard process to lay the foundation for a professional culture,
+improve the effectiveness of development.
+At level 4, organizations can manage the development through the data, which means that could apply profound knowledge
+and take correct development environment improving actions.
+At level 5, organizations can improve software development continuously based on the data. And also enabling people to
+improve their work processes continuously.
 
 
 
