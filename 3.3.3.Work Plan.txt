@@ -1,0 +1,38 @@
+You work for PerfectSoftware Pty Ltd., a company with 150 employees that has one very successful product used by roughly 10,000 people. The application allows users to manipulate personal data, store documents in the cloud, work collaboratively in dynamically created groups, and keep track of tasks, deadlines, objectives, milestones, etc.
+
+The target market for the product are companies that have to carry out complex team-based cooperation requiring members to be kept aware of what the rest of the team is doing, but at the same time, show only the relevant information preventing "information overload". The product has been out in the market for some time. The company forecasts a reasonable increase in users over the next years. The application can be hosted in the customer¡¯s infrastructure, or hosted in your company. There are different fees for these modalities.
+
+The name of the company suggest a higher-than average compromise with software quality in this product. You are in charge of designing the required quality procedures so that customers perceive a high quality product. You are allowed to make changes at any organizational level: departments, recruitment, infrastructure, budget, etc.
+
+
+
+
+1.What measures would you deploy and in which context related to "Quality Planning"?
+
+
+
+
+
+2.hat measures would you deploy and in which context related to "Quality Assurance"?
+
+
+
+3.What measures would you deploy and in which context related to "Quality Control"?
+
+
+
+4.Would you use Software Requirement Specifications? Where? What for?
+
+
+
+5. How would measure quality?
+
+
+
+6. What measures would you take to improve group working?
+
+
+
+7. What is the cost of the measures you are proposing quality? 
+Reason based on the following categories: prevention, appraisal, internal failure management, 
+external failure management, measurement.

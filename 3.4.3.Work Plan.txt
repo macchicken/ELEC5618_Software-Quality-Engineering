@@ -7,7 +7,7 @@ user needs or expectations.
 --- from 24 page of Software-Quality-Assurance-From-Theory-to-Implementation_DANIEL GALIN 2.4 Software quality ¨C definition
 
 
-2. What is the purpose, tasks, mechanisms, aims and means that are part of ¡°Software Quality Engineering¡±?
+2. What is the purpose, tasks, mechanisms, aims and means that are part of "Software Quality Engineering"?
 The purpose is to ensure required level of quality of a software prodcut is achieved.
 
 Tasks are to define appropriate quality standards and procedures and ensure that those are followed.
@@ -26,7 +26,7 @@ And also, we use certain mechanisms to control outcome results of the project,
 ensure they meet and follow the standards and procedures.
 --- from class sides week 1, page 4
 
-4. Describe what is a ¡°Software Requirement Specification¡±, what is it used for? What is its purpose?
+4. Describe what is a "Software Requirement Specification", what is it used for? What is its purpose?
 
 It describes the needs from the users and the constraints on the software in specification documents,
 and what the software would do and not expected to do.
@@ -56,16 +56,16 @@ managing people.
 
 
 
-6.Suppose you hear about the quality measures that are being used at a competing company. One of them is ¡°Code inspections 
-must be done at least at two different levels of the hierarchy¡±. What do you think these means in the context of SQE?
+6.Suppose you hear about the quality measures that are being used at a competing company. One of them is "Code inspections 
+must be done at least at two different levels of the hierarchy". What do you think these means in the context of SQE?
 
 One part of SQE is to ensure the software product comply with the relevant quality standards, such as delivering within range of error, code inspections would done by another reviewed teams, helping them address the design and code quality issues before deploymenting into production enviroment.
 And also more than two different levels would give the reviews in less error-prone.
 
 
 
-7. You also hear that the rival company has different ¡°channels¡± in which different versions of the product are 
-manipulated. One of them is called the ¡°release channel¡±, which is the one in which the released version of the product is 
+7. You also hear that the rival company has different "channels" in which different versions of the product are 
+manipulated. One of them is called the "release channel", which is the one in which the released version of the product is 
 manipulated. They tell you that they use three more channels. Can you imagine what are those and what version of the 
 product is manipulated?
 
