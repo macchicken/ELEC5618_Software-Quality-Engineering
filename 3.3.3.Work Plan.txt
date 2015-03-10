@@ -20,27 +20,76 @@ d. specify configuration management tools and procedures(include change-control 
 
 2.what measures would you deploy and in which context related to "Quality Assurance"?
 
-Decide a certain level of performance of software would meet the requirement over the next years.
-Initiating and managing activities to improve and increase the efficiency of system maintenance while
+a. Decide a certain level of performance of software would meet the requirement over the next years.
+b. Initiating and managing activities to improve and increase the efficiency of system maintenance while
 increasing number of people using the system in different enviroment.
 
 
+
 3.What measures would you deploy and in which context related to "Quality Control"?
+
+Quality control is defined as a set of activities designed to evaluate the quality of a developed or manufactured product.
+quality control inspection and other relevant activities take place as the development or manufacturing of the product
+is completed yet before the product is shipped to the client
+a. run system test during each milestone of the development processes and identify the results,ensure the system function
+properly within acceptable range of error.
+b. run performance test to ensure meet the required performance while increasing in users over the next years.
+c. code and design inspection before deploying into the production enviroment.
 
 
 
 4.Would you use Software Requirement Specifications? Where? What for?
 
+Agree with customers and produce requirement documents before starting the project.
+a. define the goal and state what the system would look like after finishing the project.
+b. describe the software product perspective including functions and constraints,
+c. specfiy the functional and performance requirements.
+d. state the system attributes: reliability,availability,maintainability,portability.
+
 
 
 5. How would measure quality?
 
+Software quality is the degree of conformance to specific functional requirements,
+specified software quality standards, and Good Software Engineering Practices.
+a. Software Reliability
+	Mean time to failure
+	Probability of unavailability
+	Rate of failure occurrence
+b. Availability
+	Robustness and Portability
+	Time to restart failures
+	Percentage of events causing failures
+	Probability of data corruption on failure
+	Percentage of target-dependent statements
+	Number of target systems
+c. Working environments
+Effect on individual productivity and satisfaction:
+Comfort; Privacy; Facilities.
+Health and safety: Lighting; Heating; Furniture
+
 
 
 6. What measures would you take to improve group working?
+
+a. Team members should all be treated in a comparable way without favourites or discrimination.
+b. Different team members have different skills and these differences should be respected.
+c. Involve all team members and make sure that people¡¯s views are considered.
+d. always be honest about what is going well and what is going badly in a project.
+e. define the type of group composition(task-oriented, self-oriented, interaction-oriented)
+f. provide space for for interaction and private working.
+g. exchange the information of works
 
 
 
 7. What is the cost of the measures you are proposing quality? 
 Reason based on the following categories: prevention, appraisal, internal failure management, 
 external failure management, measurement.
+---week1 side page16
+A. Cost of executing a project so it is error-free or within an acceptable error range.
+B. Cost of evaluating processes and their outputs to ensure quality ,such as evaluate the SRS ,identify the Reliability
+and Availability of software product.
+C. Cost to correct identified defects before deliverying to the customers.
+D. Cost to correct detected errors before deliverying to the customer.
+E. Cost of equipments used to perform prevention cost and appraisal cost activities,
+such as regular code and design inspection, equipment to carry out the tests, improving working enviroment.

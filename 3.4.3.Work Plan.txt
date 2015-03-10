@@ -65,7 +65,7 @@ improve their work processes continuously.
 6.Suppose you hear about the quality measures that are being used at a competing company. One of them is "Code inspections 
 must be done at least at two different levels of the hierarchy". What do you think these means in the context of SQE?
 
-One part of SQE is to ensure the software product comply with the relevant quality standards, such as delivering within range of error, code inspections would done by another reviewed teams, helping them address the design and code quality issues before deploymenting into production enviroment.
+One part of SQE is to ensure the software product comply with the relevant quality standards, such as delivering within range of error, code inspections would done by another reviewed teams, helping them address the design and code quality issues before deploying into production enviroment or shipping to the clients.
 And also more than two different levels would give the reviews in less error-prone.
 
 
