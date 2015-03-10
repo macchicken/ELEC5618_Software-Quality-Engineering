@@ -13,7 +13,7 @@ The purpose is to ensure required level of quality of a software prodcut is achi
 Tasks are to define appropriate quality standards and procedures and ensure that those are followed.
 And also aiming to build a quality culture in a working enviroment where everyone see quality as their responsibility.
 We establish organisational procedures and standards as mechanisms for ensuring certain level of quality.
-All those means the project to build a software product would satisfy the requirements
+All those means the project to build a software product would satisfy the requirements.
 ---from class sides week 1, page 3
 
 3. What is the difference between Quality Planning, Assurance, and Control in a software development environment?
@@ -75,6 +75,7 @@ manipulated. One of them is called the "release channel", which is the one in wh
 manipulated. They tell you that they use three more channels. Can you imagine what are those and what version of the 
 product is manipulated?
 
-development channel: managing products in the developing processes
-testing channel: managing products in the testing processes
+Those three channles could be:
+development channel: the stage of implememting the features
+testing channel: system is deploying into the specific test enviroment and codes are merged into the test branch
 beta release channel: products maybe in unstable version and taking the user accompany test involving invited person
