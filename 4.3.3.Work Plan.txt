@@ -1,0 +1,31 @@
+1. prevent errors deriving from the lack of expertise of team members
+
+	It depends on what area of expertise is lacked. For a specfic area of product, a short course and training
+could be provided by some experts. However, for development techniques and process knowledge,
+it would be better provide a longer trainning before the development,since they are fundamental.
+For methodology and tools, some senior developer can give some appropriate instructions before or during the development. 
+
+2. detect faults related to performance in your product
+
+	Daily build the project and run tools to measure the certain performance relevant fields,
+such as memory usage, cpu profile,response time of some important service etc.
+Period code and design inspection ensure the faults not detected by the automation process.
+
+3. an instance in which an initially detected defect is then ruled out as not a defect upon closer inspection
+
+
+
+
+4. an example of how would you implement one system test for your product
+System testing seeks to detect defects both within the integrated  software units and also within the system as a whole.
+1. Referring to the specfic user requirement documents, list the improved or new features would be added into the system.
+2. design the system requirement test cases, to evaluate the result of system features.
+3. put the system requirement test cases into the test enviroment, prioritize the cases
+4. design the funtional requirement test cases according to design documents of system, conversion between developers
+if some crucial functions or services being affected.
+5. add new cases or change the previous test cases if some functions behaviour being removed or changed.
+6. put the funtional requirement test cases into the test enviroment, prioritize the those cases.
+7. prepare certain amount of test datas, in order to cover all the cases.
+8. run the system requirement test cases, log the system data
+9. run the funtional requirement test cases, log the system data and functions outputs
+10. generate reports for both tests' results
