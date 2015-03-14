@@ -1,0 +1,44 @@
+1. What is the purpose of the IEEE 730-2002 standard?
+	
+	It is to provide uniform ,minimum accepatable requirements for preparation and 	content of SQAP.
+	detail how to prepare SQAP including any type of information would be needed.
+	It lists the name(s) of the software items covered by the SQAP and the intended use of the software. 
+	It states the portion of the software life cycle covered by the SQAP for each software item specified.
+	(SQAP--Software quality assurance plan)
+
+2. Choose one of the documents suggested by IEEE 730-2002 and describe its content
+
+	Software Design Description(SDD): A description in blocks of the intended implementation to comply with the software requirements, describe the components and subcomponents of the software design, including database and interal interface,
+	should be expanded in details afterwards for facilitying the implementation.
+	Its content may contain the followings:
+	a. identification--- Date of issue and status, scope of software, Issuing organisation, responsibility or copyright information, References and Context
+	b. identify the design stakeholders for the design subject
+	c. identify the design concerns of each identified design stakeholder
+	d. address each identified design concern
+	e. organised into design views--- contain design elements, and different design concerns(functionality,reliability,performance and maintainability)
+	f. design viewpoint--- functional views of system(such as functions, input/output),and also should select design languages for viewpoint specification.
+	e. design overlays--- to represent additional information which only relevant to one design viewpoint.
+	g. design rationale--- lists the reasons of designing the system and how to make those design decisions, includes any
+	design issues and options being considered.
+
+3. Choose on of the "review processes" described in the IEEE 730-2002 that you think applies to your product and describe its details
+
+	Detail Design Review(DDR): determine the acceptability of the detail software designs as depicted in the detailed
+	software design description in satisfying the requirements of the software requirements description.
+	a. 2-3 hour block schedule and invite participants including some product field experts
+	b. have the requirements specification ready
+	c. evaluate designed functions and others supporting functions, see whether produce the desired effects
+	d. evaluate any changes in the architecture of system, spot any issues might affect the operations of system
+	e. take account the security issues, analysis the factors might affect
+	f. evaluate the standard tolerances of the tests
+
+3. Write five features in your product that are related to any of the following aspects of the ISO/IEC 25010:2011 standard: time behavior, resource utilization, interoperability, learnability, user error protection, fault tolerance, maintainability.
+
+	learnability: people can learn the basic skills for handling chrome in short time, from online document in the help features
+	time-behavior: reaction time of loading pages normally less than hundreds of ms
+	interoperability: run on almost os platform, by using google account in the chrome, could store the data in the cloud,
+	also exporting bookmarks can import into some other supporting browser, extension of chrome enable the possiblities of
+	exchanging information to other systems by external developed features.
+	fault tolerance: previous pages could reopen after crushes 
+	maintainability: the system modularized, such as plugin,ui,messages subsystem, extension, security
+	
