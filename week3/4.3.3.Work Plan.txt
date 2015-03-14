@@ -12,7 +12,10 @@ such as memory usage, cpu profile,response time of some important service etc.
 Period code and design inspection ensure the faults not detected by the automation process.
 
 3. an instance in which an initially detected defect is then ruled out as not a defect upon closer inspection
-
+	a new feature added in a system, adding one more internal interface of system, at first the change
+was not in the requirement documents, developers just list it in the design description, because he think
+that is not reasonable for modifying a existing interface, it would increase complexcity even decreaing performance of a core serivce. After the conversation between users,designer,analyst and developers, 
+this new inferface is thought to not affecting the current core service, even it increase the reusability the module.
 
 
 
@@ -21,7 +24,7 @@ System testing seeks to detect defects both within the integrated  software unit
 1. Referring to the specfic user requirement documents, list the improved or new features would be added into the system.
 2. design the system requirement test cases, to evaluate the result of system features.
 3. put the system requirement test cases into the test enviroment, prioritize the cases
-4. design the funtional requirement test cases according to design documents of system, conversion between developers
+4. design the funtional requirement test cases according to design documents of system, conversation between developers
 if some crucial functions or services being affected.
 5. add new cases or change the previous test cases if some functions behaviour being removed or changed.
 6. put the funtional requirement test cases into the test enviroment, prioritize the those cases.
