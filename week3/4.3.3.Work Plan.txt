@@ -9,7 +9,7 @@ For methodology and tools, some senior developer can give some appropriate instr
 
 	Daily build the project and run tools to measure the certain performance relevant fields,
 such as memory usage, cpu profile,response time of some important service etc.
-Period code and design inspection ensure the faults not detected by the automation process.
+Period code and design inspection in case some faults not detected by the automation process.
 
 3. an instance in which an initially detected defect is then ruled out as not a defect upon closer inspection
 	a new feature added in a system, adding one more internal interface of system, at first the change
