@@ -1,0 +1,24 @@
+Resource: Documentation about your project
+
+Create a document with the following points to be discussed in class. They all should be written with respect to the open-source project you have chosen. You may share your answers with your team mates, and post about them in the course forum.
+
+
+1. Think of the quality goals you would like to have in your product. State five of them explicitly together with the procedure to measure its compliance. For example, if reliability is one goal, state how do you plan to measure it.
+
+
+
+
+
+2. Quality is achieved in certain part by reviewing the multiple steps during the development process. Describe what do you need to deploy, how would you implement, and what are the objectives of the following procedures: design review, code inspection.
+
+
+
+
+
+3. Software has to be tested. But the testing can be done at various levels. Provide a definition of three levels of testing and the type of procedures included in each of them. Give examples related to your project.
+
+
+
+
+
+4. Enumerate the tools you need to deploy a quality plan. You must include all tools such as management support, change-control, testing, etc.

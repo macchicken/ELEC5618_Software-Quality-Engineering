@@ -1,0 +1,28 @@
+Resource: Source code from your project
+
+1. Review the lists of each team member containing the product functionalities and suggest how to improve the description of these functionalities. If there are functionalities in common, collaboratively search for one additional one and suggest one person to take it instead of the repeated one. By the end of this step, each team member must have a list with three functionalities polished and different from everybody else.
+
+
+
+
+
+2. Discuss the different versions of the figures illustrating the architectural blocks of the project. Each team member annotates changes to make to that figure and submit then as part of the individual assignment.
+
+
+
+
+
+3. Discuss the different versions of the data structures. Connect them with the functionalities of the first step. What are high level operations executed over these data that you can gather from a first inspection of the code?
+
+
+
+
+
+4. Agree on as many potential defects as team members that must be avoided in this product. Describe which measures will you put in place to make sure they are detected before release time.
+
+
+
+
+
+Each team member selects one of the previous defects to document in not more than 1 page and submit as part of the assignment
+(A potential defect is clearly described and a comprehensive set of quality assurance mechanisms (documentation, training, policies, tests, measures) are included to guarantee that the defect is not present)

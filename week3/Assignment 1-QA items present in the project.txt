@@ -1,0 +1,20 @@
+Recourse: Source code from your project
+a document containing a list with three product functionalities, a figure with the architecture, and list with the most important data structures
+
+
+1. A list (not longer than 1 page) with three product functionalities described from the point of view of the user. Try to avoid the most obvious ones. Each functionality should be described unambiguously.
+(The three functionalities are clearly described from what the user does with the product)
+
+
+
+
+
+2. A figure illustrating the main architectural blocks of the project (code blocks, modules, data structures, functions, etc.) The figure should convey as much information as possible without providing implementation details.
+(The figure contains the main blocks of the product (not more than 10) and the relations among them in terms of functionality)
+
+
+
+
+
+A list with the most important data structures
+(The list contains the most important data structures of the product (not more than 10) and their relationship)
