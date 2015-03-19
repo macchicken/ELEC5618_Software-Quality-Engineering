@@ -5,7 +5,14 @@ Create a document with the following points to be discussed in class. They all s
 
 1. Think of the quality goals you would like to have in your product. State five of them explicitly together with the procedure to measure its compliance. For example, if reliability is one goal, state how do you plan to measure it.
 
-
+	a.Portability: install the software on the windows,linux and max osx sucessfully, ensure the online version of the
+	system could run on almost browser, such as firefix,chrome,safari etc.Test the main functions of the system on the
+	web, compare the result with the destop version.
+	b.Usability: measure the time taben by users follow the user's guide, and sucessfully create a model in the tutorial exercise.
+	c.Reliability: it should be not fail more than 10 minutes per month during working hours.
+	d. Maintainability: react to or fix a bug within a week.
+	e. Testability: it provides certain amount of unit test cases for development, log the system running data in files or
+	servers and have predefined intermediate results.
 
 
 
@@ -17,7 +24,17 @@ Create a document with the following points to be discussed in class. They all s
 
 3. Software has to be tested. But the testing can be done at various levels. Provide a definition of three levels of testing and the type of procedures included in each of them. Give examples related to your project.
 
-
+	a.Regression Testing: testing that previously implemented functionality still functions as expected given newly added 
+	features. This will include steps that the tester should follow and results that the tester should observe when done 
+	correctly. The tester will then rank the test as a Pass, Failure of the test, Failure of the result, Failure of the 
+	specification.
+	b.Integration Testing: is the phase in software testing in which individual software modules are combined and tested as 
+	a group, takes as its input modules that have been unit tested, groups them in larger aggregates, applies tests defined 
+	in an integration test plan to those aggregates, and delivers as its output the integrated system ready for system 
+	testing, to detect any inconsistencies between the software units that are integrated together.
+	c.System testing: usually done towards the end of a project, integrated system to evaluate the system's compliance with 
+	its specified requirements, include functional requirement and system requirement. Test the design of system and 
+	behaviour of target users.
 
 
 
