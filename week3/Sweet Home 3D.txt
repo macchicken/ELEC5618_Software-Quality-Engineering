@@ -1,0 +1,11 @@
+	Sweet Home 3D is a free interior design application that helps draw a place you of your home and layout furniture on a 
+house 2D plan, with a 3D preview.It could be installed on the windows,linux, mac osx and have online version which provide
+almost functions of the desktop version.	
+
+	The application contains the furniture catalog provides the model of different furniture organized by categories;
+the home furniture list, displays the furniture of home plan; the home plan displays home as seen from top;
+and the home 3D view displays the home in 3 dimensions, either from the top, or from a virtual visitor point of view.
+And also, the application can import the 3D model of the funiture which created by some object modelling software.
+Users can modify walls and rooms of the home, adding doors and windows. After finishing the home plan, users can export
+the picture of 3D view of home and 3D videos for showing people the entire home plan.
+	
