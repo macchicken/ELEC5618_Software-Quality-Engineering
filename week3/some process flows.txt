@@ -1,0 +1,17 @@
+Startup:
+1. SweetHome3DBootstrap
+2. SweetHome3D
+3. HomeFrameController----> Home home:home; HomeApplication application:SweetHome3D; ViewFactory viewFactory: SwingViewFactory
+			ContentManager contentManager: FileContentManagerWithRecordedLastDirectories
+			PluginManager pluginManager:PluginManager
+4. HomeFrameView----> HomeFrameController controller: HomeFrameController ; 
+5. HomeController
+6. HomeController3D
+7. PlanController----> UndoableEditSupport undoSupport: HomeController
+8. FurnitureCatalogController----> FurnitureCatalog catalog: FurnitureCatalog; UserPreferences preferences: SweetHome3D
+
+
+
+double click funiture:
+other: HomeFurnitureController---> UndoableEditSupport undoSupport:HomeController
+1. PlanController: pressMouse--->FurnitureController: modifySelectedFurniture--->HomeFurnitureController: updateProperties ----> ModelMaterialsController: setMaterials(),setModel()
