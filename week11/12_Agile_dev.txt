@@ -1,0 +1,13 @@
+Document describing a new functionality to add to your product.
+
+Work Plan
+Extend the description of the new functionality with two more sections:
+A sequence of intermediate releases that incorporate your functionality gradually to the product. The increments from release to release have to be small as to adopt an agile development. Do not worry about the usefulness of the intermediate releases, just make sure you describe a small increase in functionality.
+The description of the tests that you would propose to verify that these releases are correctly implemented. For each test simply state its type and what is being tested.
+
+Assessment
+The document with the three sections needs to be submitted for assessment in folder 12_Agile_dev. Full mark is obtained if:
+
+If the document contains the first section with a detailed description of the improvement.
+If the document contains the second section with a sequence of at least three releases that increase gradually the functionality described in section one until the final release which fully implements it.
+If the document contains the third section in which a list of tests is described and effectively verifies the progress of the releases.

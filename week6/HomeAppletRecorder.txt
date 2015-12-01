@@ -1,0 +1,7 @@
+writeHome method should surround the close action of
+'OutputStream out = connection.getOutputStream();' 
+'InputStream in = connection.getInputStream();'	
+with try catch finally block, ensure the in out resource release even after throw exceptions.
+
+
+getHomeLength should release LengthOutputStream and DefaultHomeOutputStream afterwards.

@@ -1,0 +1,42 @@
+A. Over-View: a moderator should state any special scrutiny those areas that were reworked since the errors found in design inspections or any changes made in the design, prepare the code listings and design specifications.
+
+B. Preparation: each inspection team member studies the ranked distributions of errors types found by recent inspections, which could make them concentrate on the most the error-prone areas, and also the clues of finding this errors should also be studied.
+
+C. Inspection : An implementor should describe the implementation of each piece of logic, and all high-level documemtation and logic specifications should be presented as well. In this activity, the objective is to find errors, the moderator should note the classification and severity. The activity should take place no longer than 2 hours on average.
+
+D. Follow-Up: a inspection report should be produced and pass to each team members. The report is to ensure the all raised issues will be addressed in the following reworks.
+
+
+
+Advantages:
+
+A. Errors are categorized. It allow members to maintain the cumulative totals of each type and modules of errors, easy to review the errors on later stage.
+
+B. The detailed feedback is on a relatively real-time basis.
+
+C. Programmer could able to make some improvements on later work by receiving the feedback, such as avoiding those addressed errors during the development, reduce the cost of fixing the errors on later stage of the project.
+
+D. High chance to identify the defects and analysis the errors.
+
+Disadvantages:
+A. Since inspectors are from different teams, they might not have much knowledge of the system, they would need to spend time to learn the system.
+
+B. It might not suitable for a relatively small project, it costs resources on carrying out those inspections.
+
+C. may only suitable for critical work job, not for trivial
+
+Solution:
+Static code analysis tools could increase the efficiency and allow inspector concentrate on rarely occurred errors.
+Those tools have most common errors in the knowledge database and can product the well-categorized error detection report.
+They could also learn the new type of errors by import the them into the database.
+
+
+Code inspection:
+
+Code inspection is a formal type of review bases on rules and checklists, which intend to find defects and suggest any
+improvements, It usually need to product the well-structured reports and need follow-ups , keep track of reworks.
+
+Code walk-through:
+
+However, Code walk-through is actually a informal review people go through the code line-by-line, some errors
+could also address while people explain the code. It is usually for the specific feature of the system, not quite suitable for a modules.

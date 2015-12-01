@@ -8,20 +8,39 @@
 
 2. Choose one of the documents suggested by IEEE 730-2002 and describe its content
 
-	Software Design Description(SDD): A description in blocks of the intended implementation to comply with the software requirements, describe the components and subcomponents of the software design, including database and interal interface,
-	should be expanded in details afterwards for facilitying the implementation.
-	Its content may contain the followings:
-	a. identification--- Date of issue and status, scope of software, Issuing organisation, responsibility or copyright information, References and Context
-	b. identify the design stakeholders for the design subject
-	c. identify the design concerns of each identified design stakeholder
-	d. address each identified design concern
-	e. organised into design views--- contain design elements, and different design concerns(functionality,reliability,performance and maintainability)
-	f. design viewpoint--- functional views of system(such as functions, input/output),and also should select design languages for viewpoint specification.
-	e. design overlays--- to represent additional information which only relevant to one design viewpoint.
-	g. design rationale--- lists the reasons of designing the system and how to make those design decisions, includes any
-	design issues and options being considered.
+	Software Design Description (SDD): A description in blocks of the intended implementation to comply with the software requirements, describe the components and subcomponents of the software design, including database and internal interface, should be expanded in details afterwards for facility the implementation. Its content contains the followings:
+	Identification the Date of issue and status, scope of software, issuing organization, responsibility or copyright information, references and context.
+	Identify the design stakeholders for the design subject.
+	Identify the design concerns of each identified design stakeholder.
+	Address each identified design concern.
+	Organized into design views: contain design elements, and different design concerns (functionality, reliability, performance and maintainability).
+	Design viewpoint: functional views of system (such as functions, input/output), and also should select design languages for viewpoint specification.
+	Design overlays: to represent additional information which only relevant to one design viewpoint.
+	Design rationale: lists the reasons of designing the system and how to make those design decisions, includes any design issues and options being considered.
 
-3. Choose on of the "review processes" described in the IEEE 730-2002 that you think applies to your product and describe its details
+
+	Software Requirement Specification: a comprehensive description of the intended purpose and environment for software under 
+	development. The SRS fully describes what the software will do and how it will be expected to perform with respect to functional and non-functional requirements. A set of use cases may be included to help clarify the specifications.
+	
+	Verification and Validation plan: describe the processes that will be implemented to verify and validate a specific software 
+	application. This plan is used to strive to ensure that quality is built into the software and the software satisfies user 
+	requirements. In other words, it ensures that the project team is building the right project and building that product 
+	correctly. Tasks such as code analysis, inspections and testing are generally found within the detailed document.
+	
+	Verification results report and validation results report: the results of the software verification activities 
+	conducted according to the verification plan. The validation results report should describe the results of the software	
+	test or validation carried out according to the validation plan
+	
+	The user documentation: the data control inputs, input sequences, options, programlimitations, and all other essential 
+	information for the software product. All error messages should be identified and described
+
+	Software configuration management plan: manage software and hardware environment that host the system; identification of
+	system configuration and baselines; control the changing of configuration baseline; store the information of the status
+	in the development process; manage the process and tools for building different version of the system; process of auditing
+	configuration.
+	
+
+3. Choose one of the "review processes" described in the IEEE 730-2002 that you think applies to your product and describe its details
 
 	Detail Design Review(DDR): determine the acceptability of the detail software designs as depicted in the detailed
 	software design description in satisfying the requirements of the software requirements description.
@@ -32,6 +51,30 @@
 	e. take account the security issues, analysis the factors might affect
 	f. evaluate the standard tolerances of the tests
 
+	Software specifications review: assure the adequacy of the requirements stated in the SRS
+	
+	Architecture design review:  evaluate the technical adequacy of the top-level design of the software as depicted in the 
+	preliminary software design description.
+	
+	Verification and validation plan review: evaluate the adequacy and completeness of the verification and validation methods 
+	defined in the verification and validation plans.
+	
+	Functional audit: prior to the software delivery to verify that all requirements specified in the SRS have been met
+	
+	Physical audit: verify internal consistency of the software and its documentation, and their readiness for release
+	
+	In-process audits: verify the consistency of the design: code and software design document; interface design;
+	design implementation and funcitional requirements; functional requirements and test description.
+	
+	Managerial reviews:  periodically to assess the execution of all of the actions and the items identified in the software 
+	quality assurance plan
+	
+	Software configuration management plan review: evaluate the adequacy and completeness of the configuration management methods
+	defined in the plan
+	
+	Post-implementation review:  at the conclusion of the project to assess the development activities on that project and to
+	provide recommendations for appropriate actions
+
 3. Write five features in your product that are related to any of the following aspects of the ISO/IEC 25010:2011 standard: time behavior, resource utilization, interoperability, learnability, user error protection, fault tolerance, maintainability.
 
 	learnability: people can learn the basic skills for handling chrome in short time, from online document in the help features
@@ -39,6 +82,11 @@
 	interoperability: run on almost os platform, by using google account in the chrome, could store the data in the cloud,
 	also exporting bookmarks can import into some other supporting browser, extension of chrome enable the possiblities of
 	exchanging information to other systems by external developed features.
-	fault tolerance: previous pages could reopen after crushes 
-	maintainability: the system modularized, such as plugin,ui,messages subsystem, extension, security
-	
+	fault tolerance: show a crashing page after crashing occur on the loading pages
+	Recoverability: previous pages could reopen after crushes
+	maintainability: the system modularized, such as plugin,ui, messages subsystem, extension, security
+	resource utilization: the memory used by each thread keep under 50MB
+	user error protection: can recover the user bookmark from the clound after accidental deleting
+	Confidentiality: user could only access their data once they login
+	Portability: can be installed on various type of operating system, can be installed with single installation file,
+	no extra environment setting needed, can be uninstalled by standard programm remover or just deleting its installation directory

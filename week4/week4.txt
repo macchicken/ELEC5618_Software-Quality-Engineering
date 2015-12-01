@@ -1,0 +1,23 @@
+1. The product should notify regularly the user about its progress
+
+1.1 how to notify
+	1.1.1 generate a log on those files(log content and type of log)
+	1.1.2 promote a desktop alter
+	1.1.3 display the copying percentage on the desktop alter
+	1.1.4 check the file content and extension
+	1.1.5 virus scan for files before copying
+	1.1.6 check md5 for copyed files
+
+1.2 how often notification
+	1.2.1 hide in the background, user can view the notification by a viewer
+	1.2.2 the viewer initial sits in the task tab
+
+2 The program should quickly detect if the structure of the document is incorrect
+	1.1 have pre-defined structure of each format storing in the product
+		1.1.1 check with structures and detect any incorrect part of the document
+		1.1.2 display the outline of those incorrect parts in a dialog
+	1.2 check the encoding of the file is supported
+		1.2.1 nofity user with a alert when encoding is not supported
+	1.3 detection with no more than 5 seconds
+		1.3.1 file size is up to 100MB
+		1.3.2 raise alert if file size is above 100MB

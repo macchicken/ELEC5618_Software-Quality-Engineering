@@ -1,0 +1,37 @@
+Lab
+
+compareVersions method in custom-defined OperatingSystem class
+the method reads tow string for representing 2 version numbers , compare their high and low.
+there are divided into 3 partitions:
+1. if the both version includes numbers, compare the numbers first by creating 2 Integer object and using compareTo method.
+2. if one of the version contains string, it always higher than the numbers.
+3. the reset cases are smaller.
+
+
+Lecture
+
+What are the differences between: functional testing, integration testing, acceptance test, and performance testing.
+Functional testing is to check each module and unit of the system whether meet the requirements specified by business representatives, while acceptance test are done by those representatives to ensure those modules work together in correct business manner.
+Integration testing is intend to test the all modules and units of the system interact correctly with each other, the whole system is consistent, while performance testing is check the throughput and response of the system.
+
+
+Give example of the three types of resources needed for testing: human, hardware and software.
+The person involving in the functional testing are the developers implemented the tested modules and units, test engineer and business analyst.
+The hardware using in the integration testing: in software test, the separate physical or virtual server is needed to isolate from the development branch.
+Software using in performance testing: the support platform, the control tool and result reporting tool are needed in the test environment, such as UNIX, JDK installed, JMeter using in Java based System and a database to store the test results. 
+
+
+You are in charge of a team of 20 developers working on a web-based platform hosting blogs. The platform is in its third version, and therefore can be considered matured. You now need to reorganize the team and distribute roles to include quality assurance mechanisms. Which roles would you consider? What are the tasks assigned to the different roles?
+
+This question is to get a sense of how would you organize a team when addressing quality assurance issues. Would you separate quality assurance to certain members? Would you merge the tasks? Make assumptions and explain them.
+
+
+Suppose we have 3 senior developers in charge the high level design and analysis, 6 major developers do the implementations, 1 people is business analyst and 8 test engineers, 2 people evaluate quality issues according to the test results and prepare and organize the documentations of the system.
+
+In the development procedures, 3 senior developers would do the design reviewer for each other with their implementer and corresponding test engineers. The code walk-through can be done with major developers and designers in pairs and code static analysis ready for any big changes occur.
+In test procedures, 5 of the test engineers would in charge of writing test programs according to test cases written by the rest of senior test engineers. The test cases design review would be done by in the similar manner of development.
+Also, test engineers would have to ensure the environment is ready before the system test begin.
+The review session in development and testing procedures would have regularly report to those 2 QA, to address any issues may influence the release of the system. One of QA would give the periodical report.
+During the testing, all designer and developers would cooperate with those test engineers to fix any system issues, make use of any logging and track the detected defects.
+Before the UAT begins, developers would have to contribute their system documents to the QA, and re-organize them in format with business analyst, so that business users could do the business test based on the current stable version. The QA would check the reliability and availability, and any recover mechanisms exists for the system.
+After the completion of UAT, all team members would give the final preparation of documentations of the system and be ready to deploy into the production environment

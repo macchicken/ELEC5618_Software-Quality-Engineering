@@ -1,0 +1,18 @@
+The mark for assignment 1 is out, and you can check your mark through LMS. Here's the feedback for assignment 1:
+
+02_team_policy (-0.5)
+- (-0.5) Procedure to follow if unable to attend: what if the absent member refuses to participate?
+03_project_description (-0.5)
+- (-0.5) Installation Procedure: Does the software support other OS or just Windows? 
+04_initial_qa_mechanisms (-1)
+- (-1) Defect: no defect documentation is given
+05_sqp_section (-2)
+- (-0.5) documents: author, reviewer
+- (-0.5) SRD and SDD: how the documents will be written?
+- (-1) Software configuration management plan: the description is too vague, e.g., "When the number of bugs is reduced to a certain level, the system is ready to be deployed into the beta testing environment". Make sure all policies are able to be followed and executed. Another thing is that in this section you need to mention how you plan to manage different versions, different release channels of the software, and possibly dependency management.
+06_srs_use_cases (-0.5)
+- (-0.5) use case: please refer to Daniel's answer
+
+If you disagree with the mark, or if you have any questions relating to this assignment, feel free to reply this email or talk to one of the tutors during the lab sessions. If there is a mistake, your mark will be updated.
+
+Kind regards,

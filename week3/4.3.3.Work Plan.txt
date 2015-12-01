@@ -12,11 +12,9 @@ such as memory usage, cpu profile,response time of some important service etc.
 Period code and design inspection in case some faults not detected by the automation process.
 
 3. an instance in which an initially detected defect is then ruled out as not a defect upon closer inspection
-	a new feature added in a system, adding one more internal interface of system, at first the change
-was not in the requirement documents, developers just list it in the design description, because he think
-that is not reasonable for modifying a existing interface, it would increase complexcity even decreaing performance of a core serivce. After the conversation between users,designer,analyst and developers, 
-this new inferface is thought to not affecting the current core service, even it increase the reusability the module.
-
+	an initially user action would cause the system saving some privacy data in the unprotected storage unexpectly,
+during the inspection of the relvant function, a configuration option was found to turn off the saving feature, which
+was initially created for testing purpose.
 
 
 4. an example of how would you implement one system test for your product

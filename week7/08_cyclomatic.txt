@@ -1,0 +1,20 @@
+Work Plan
+Select a method, function or procedure from your project. Make sure no other team member selects the same method. You may reuse any other method you may have selected for Black Box testing.
+Derive the flow graph and calculate the cyclomatic complexity.
+Share your calculations with the rest of the team to verify that they are correct.
+Write a new class with as many test cases as the cyclomatic complexity.
+The class performing the test needs to have detailed documentation on how the cyclomatic complexity was obtained.
+Write the required stubs in additional classes if needed so that the test is self-contained (runs simply by compiling and executing a single class file).
+The test should explicitly report their outcome by returning a Boolean result.
+
+
+
+Assessment
+Include all the information derived from this exercise in a folder with name 08_cyclomatic.
+
+Full mark is obtained if:
+
+The calculation of the cyclomatic complexity is correctly explained.
+There are the right number of tests.
+The tests are written correctly.
+The tests report their outcome by returning a Boolean result.

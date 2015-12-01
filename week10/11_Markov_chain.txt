@@ -1,0 +1,25 @@
+Work Plan
+Select the functionality of your product for which you wrote a FSM for testing.
+Choose one of the two:
+Modify the code in your product so that it writes logs with the events that are executed. Run the product and store those logs.
+Create a file with fictitious events extracted from the execution of your product.
+Document the structure of such file.
+Adapt the FSM that you created so that it is capable of interpreting these events in the file.
+
+The file with platform logs and a description of such format.
+
+
+Create a script or a program in your favourite programming language that receives a unique parameter (the file name with the logs of your product) and prints in the output the set of probabilities for the transition between states. The following steps are recommended:
+
+Parse all the events in the file.
+Collect the name of all the states that are traversed.
+If the logs contain information about the user executing the product, repeat the following step for each user.
+For every log line, read the state of the following event and keep a count of the transitions for every pair of states.
+For every state, collect all possible transitions, count the number of times the transitions appear and divide by the total (from the state). Print those numbers as probabilities.
+
+Assessment
+
+The test description resulting from the activity needs to be submitted for assessment in a folder with name 11_Markov_chain. Full mark is obtained if:
+
+The procedure to obtain the probabilities is clearly documented in the code.
+The script to process the text file works and produces the correct probability values.

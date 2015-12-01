@@ -1,0 +1,12 @@
+Tests threaded task controller features.
+In there test, it assigns different durations for each task and test with executeTask method,
+since ThreadedTaskController is to handle the task of printing home plan, export home plan to various format
+and new version checking in this system.
+It is important that executeTask method execute those tasks in different threads and completed the things defined in the task
+
+
+1. public void shortTaskTest()
+test execution of a short task, should not have enough time for generating a window pane
+
+2. public void LongTaskTest()
+test execution of a long task, should have enough time for generating a window pane

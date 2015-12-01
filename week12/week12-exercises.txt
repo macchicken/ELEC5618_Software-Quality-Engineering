@@ -1,0 +1,19 @@
+Aspects that affect software quality
+The importance of quality
+Why culture is so critical and how does it affect quality?
+How can we create a culture of quality?
+
+What would be your definition of a culture of quality in software
+The culture of software quality is from series events while constructing the software, those events would lead people to form awareness of quality of products, agreed standard of value and specification of actions between us, in addition to form the most common way of thinking to solve the problems, as well as other practices in the works.
+
+
+How would you create such culture
+1. developer owns quality: support developers to do unit testing and module testing, build good infrastructure to let developers write automatic testing in easy way.
+2. Creating custom tools based on some open source, such as selenium, Jmeter etc, try to run those test as easy as possible by just a few configuration files.
+3. pair programming helps developers find out the errors more easily in early stages and get used with test-driven
+4. use code analysis tools assist code review and walk-through, document priority changes and bugs if possible
+5. let more test engineers help building the foundation of testing
+6. continuous integration: test what are changed based on the relation between modified things and test use cases, report result in fast way
+
+
+culture: embed it, it would happen even if you are not there sometimes

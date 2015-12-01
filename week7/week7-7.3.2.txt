@@ -1,0 +1,97 @@
+class HtmlClient{// a fake object
+
+	HtmlClient(){}
+
+	String get(url){return "<html><body><p>Testing</p></body></html>";}
+}
+
+//-------------------------------------------------------------------Original
+class Document {
+    String html;
+
+    Document(String url) {
+        HtmlClient client = new HtmlClient();
+        html = client.get(url);
+    }
+
+    String getHtml(){return this.html;}
+}
+
+class Printer {
+    // Other fields and code that are not important...
+
+    void print(Document html) {
+        // Code under test
+		System.out.println(html.getHtml());
+        System.out.println("Testing print method of Printer class");
+    }
+}
+
+class Test{
+
+	Printer printer;
+	
+	public static void setUp(){
+		this.printer=new Printer();
+	}
+
+	public static void testPrinter(String url){
+		Document doc=new Documet(url);
+		this.printer(doc);
+	}
+
+	public static void main(String args[]){
+		setUp();
+		testPrinter();
+	}
+
+}
+
+
+//-------------------------------------------------------------------Improvement
+
+
+class Document{
+
+	String html;
+	Document(Stirng html){
+		this.html=html;
+	}
+	
+	String getHtml(){return this.html;}
+}
+
+class DocumentFactory{
+
+	HtmlClient htmlClient;
+
+	DocumentFactory(HtmlClient htmlClient){
+		this.htmlClient=htmlClient;
+	}
+
+	Document build(String url){
+		return new Document(this.htmlClient.get(url));
+	}
+
+}
+
+class TestTwo{
+
+	Printer printer;
+	DocumentFactory df;
+	
+	public static void setUp(){
+		this.printer=new Printer();
+		this.df=new DocumentFactory(new HtmlClient());
+	}
+
+	public static void testPrinter(String url){
+		Document doc=this.df.build(url);
+		this.printer(doc);
+	}
+
+	public static void main(String args[]){
+		setUp();
+		testPrinter();
+	}
+}

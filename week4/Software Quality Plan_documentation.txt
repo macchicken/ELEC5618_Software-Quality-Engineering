@@ -1,0 +1,71 @@
+http://people.cis.ksu.edu/~ganti/mse_sqa.htm
+
+The Software Requirements Specification (SRS),
+		Prescribes each of the essential requirements (functions, performances, design constraints and attributes) of the 	software and external interfaces
+
+		Objectively verifies achievement of each requirement by a prescribed method (e.g. Inspection, analysis, demonstration or test)
+
+		Facilitates traceability of requirements specification to product delivery.
+
+
+ 
+
+The Software Design Description/specification (SDD/SDS)
+
+		Depicts how the software will be structured
+
+		Describes the components and sub-components of the software design, including various packages and frameworks, if any.
+
+		Gives an object model that is developed using Rational Rose highlighting the essential classes that would make up the product.
+
+		Gives a sample interaction diagram, showing the key interactions in the application. This should also be a part of the object model.
+
+ 
+
+Software Test Plan: Describes the test cases that will be employed to test the product. 
+
+ 
+
+Software User Manual (SUM)
+
+		Identify the required data and control inputs, input sequences, options, program limitations or other actions.
+
+		Identify all error messages and describe the associated corrective actions.
+
+		Describe a method for reporting user-identified errors.
+
+ 
+
+The following documents will be provided at the end of each phase by the developer:
+
+Phase 1: Objectives
+		Project Overview
+		Requirements Specification
+		Cost analysis
+		Project plan
+		Software quality assurance plan
+		
+Phase 2: Architecture
+		Implementation Plan
+		Formal Requirement Specification
+		Architecture design
+		Test plan
+
+
+
+	
+		
+manage the different versions
+1. developer submit the codes to current development branch.
+
+2. test engineers build a new version and deploy it into alpha test environment, carrying out the system test.
+
+3. when the bugs reduced to a certain level, the system is ready to deploy into beta test environment.
+
+4. testers carry out the acceptance test in the beta, ensure it meet the standard of pre-release.
+
+5. deploy the pre-release version into production environment.
+
+For daily, there is a fresh environment for regression test, ensure the stability of daily works.
+developers should also take care the integration test, ensure compatibility of different modules in the
+system.

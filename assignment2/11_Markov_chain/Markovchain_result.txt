@@ -1,0 +1,7 @@
+total state transition: 32.0
+Transition [from=loader get, to=loader error format] probability: 0.7142857142857143
+Transition [from=loader get, to=loader load] probability: 0.2857142857142857
+Transition [from=loader error format, to=loader get] probability: 0.9
+Transition [from=loader error format, to=loader Parsing error] probability: 0.1
+Transition [from=loader load, to=loader finish] probability: 1.0
+Transition [from=loader finish, to=loader get] probability: 1.0

@@ -1,0 +1,13 @@
+Review IEEE 730-2002 and its most important parts. What is the purpose of such document? Why is it useful? Which role do you see it playing when a company provides software to be used within another product (a library, for example)?
+
+Purpose
+
+a) Identify the documentation governing the development, verification and validation, use, and maintenance of the software.
+b) List which documents are to be reviewed or audited for adequacy. For each document listed, identify
+the reviews or audits to be conducted and the criteria by which adequacy is to be confirmed, with reference to reviewing section of 
+the software quality assurance plan
+
+It maintains the adequate documents to allow further maintaining. For using a library in another product, user documentation
+can provide the usage of the library, and also design descriptions describe the crucial blocks of it, developers could
+understand the library without looking the whole block of codes. Documentation acts as a media for dilivering enough information
+to relevant people at any time they want.

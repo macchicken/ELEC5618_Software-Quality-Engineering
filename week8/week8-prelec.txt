@@ -1,0 +1,33 @@
+Recommendation Testing Management tool for a company:
+Xstudio can create a project by starting a new product in the system.and then, it could add the requirements of product into requirements tree and link them to the product.
+
+It could also link the test cases with requirements and test converge of requirements would be indicated with percentage.
+There are campaign session to gather the similar tests wish to run and each campaign has progress bar to indicate the status of those tests.
+Creation of test cases would ask to define execution method, which is either manual or automatic.
+
+This system provides various type of reports, such as Requirements report, Tests Campaigns Report and Defects Report.
+
+The dashboard function of this system provides the information about 
+the tests you must develop (if you¡¯re a test developer),
+the campaigns sessions you must execute (if you¡¯re a tester),
+the bugs you have to fix (if you¡¯re a developer)
+or the bug-fixes you need to verify (if you¡¯re a tester).
+
+However, it does not provide many functions connect with project management, despite of a project overview report.
+ 
+The defect tracking function has all necessary states of defects or bugs need to know during the testing,
+it includes the total number of defects, the number of defects in each category, the number of defects in each folder, the status of each defect, the severity of each defect ,the priority of each defect.
+
+
+1.
+Importing a furniture model is suitable for FSM testing since it is a sequential behaviour. It begins with initial state, and then user click the "Import furniture" tab. the file menu appears. Next, user Choose a model file in the file dialog, click "continue" and user can prientate the model with arrow buttons to see the front face as well as change the name and choose the type of furniture . Finally, user clicks in ¡°Save¡± item. File is saved and program goes back to the ¡°initial¡± state.
+
+2.
+Search a furniture in the furniture catalog pane is suitable for Markov chains since the number of states is too large only a subset of all possible paths is traversed.
+It begins with "initial state" and user enter a key word in the search bar. The possibility of a transition from one state to another depends on the number and validation of key word. If the key word is invalid ,it will back to the same state. if a list of furniture match the key word , user can click one and drag into the floor plan.
+Finally, program goes back to the ¡°initial¡± state.
+
+
+Post a two sentence summary of your impressions in the course forum. Include the price if you found it.
+1.The management tool I choose is Aqua. It support automated unit tests, automated gui tests, manual tests, defect management and having Multiple testing environments .For example, bi-directional synchronisation with Atlassian Jira and we can also use aqua without leaving your development environment with the aqua plug-in for Eclipse
+2. To use the aqua to the fullest, we could organize a team and make a test management for our product. First, creating and managing test cases, such as user login, searching a furniture in the furniture catalog pane, adding a furniture model. Every task could be assigned to a particular team member by opening a pull down menu. With aqua Project Planner , team member could monitor the progress made in processing requirements, tests, or errors for the quickest reactions and permanent project transparency on costs, budget, and timetable. When it comes to a defect,  Integrated defect management forms the interface to have precise descriptions of defects, including screenshots of defects , and adding more valuable information as attachments.

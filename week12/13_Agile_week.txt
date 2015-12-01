@@ -1,0 +1,33 @@
+Work Plan
+The objective of this lab is to use the material from the previous lab (in which you proposed a new functionality in your product that you would develop it using Agile Methodology) and transform it so that it follows the Agile Week design you proposed in a previous session. You may assume that you lead a team of developers as the one you considered when designing your Agile Week.
+
+The deliverable for this lab consists on a concrete mapping between tasks and parts of the product. The proposed steps to prepare the lab are:
+
+Identify one new functionality in your project that you will implement in the one-week Agile cycle you have been reviewing. Re-use the functionality you considered for previous exercises, but you have to make sure it is of reasonable complexity to be implemented in one week. Remember that you proposed a functionality with at least three releases. In this lab we want to focus on one functionality that can be implemented in a week.
+
+Identify the blocks in the source code that need to be modified and describe them briefly in one document. By blocks we mean the classes, methods and data structures that will be affected by the development of the new functionality.
+
+
+The document describing the functionality to be implemented and the blocks that need to be modified.
+
+Remember that the objective of this lab is to make a concrete connection between a new functionality you propose and a detailed plan for a week of work with you and your team. The steps for this sesssions are:
+
+Comment with the rest of the team members the functionality you selected to implement in one week. Make sure they are different among all members.
+
+Design a detailed plan with the steps required for the implementation during the 10 periods of the Agile week (mornings and afternoons). The plan must include the following parts:
+
+Description of the new functionality as a Software Requirement Specificaiton as explained previously in the course.
+
+Description of the blocks that need to be modified and why.
+
+Tasks attached to these modifications.
+
+Estimated duration of the development phases and detailed division of steps among them. For example, if the functionality consists on adding a new menu item, describe the steps required for the implementation (modification of the GUI, creation of the listener, creation of the main functionality, etc.) and an the number of hours and type of programming required (individual, pair).
+
+Description of code review procedures with concrete assignments to team members. The code review should refer to concrete files.
+
+Description of the type of tests and the units involved in it. By units we mean files, classes, modules or any relevant division that is present in your product.
+
+
+Assessment
+Compile this information in a document which needs to be submitted for assessment in folder 13_Agile_week. Full mark is obtained if the document complies with the items described in the previous section.

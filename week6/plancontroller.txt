@@ -1,0 +1,144 @@
+Bad practice Warnings
+
+RV	com.eteks.sweethome3d.viewcontroller.PlanController$16.compare(HomePieceOfFurniture, HomePieceOfFurniture) negates the return value of Float.compare(float, float)
+Bug type RV_NEGATING_RESULT_OF_COMPARETO (click for details) 
+In class com.eteks.sweethome3d.viewcontroller.PlanController$16
+In method com.eteks.sweethome3d.viewcontroller.PlanController$16.compare(HomePieceOfFurniture, HomePieceOfFurniture)
+Called method Float.compare(float, float)
+Return value of Float.compare(float, float) of type int
+At PlanController.java:[line 3184]
+
+return -Float.compare(p1.getGroundElevation(), p2.getGroundElevation());
+to : return Float.compare(p2.getGroundElevation(), p1.getGroundElevation());
+
+
+
+Performance Warnings
+
+Bx	Primitive value is unboxed and coerced for ternary operator in com.eteks.sweethome3d.viewcontroller.PlanController$DimensionLineDrawingState.updateEditableProperty(PlanController$EditableProperty, Object)
+Bug type BX_UNBOXED_AND_COERCED_FOR_TERNARY_OPERATOR (click for details) 
+In class com.eteks.sweethome3d.viewcontroller.PlanController$DimensionLineDrawingState
+In method com.eteks.sweethome3d.viewcontroller.PlanController$DimensionLineDrawingState.updateEditableProperty(PlanController$EditableProperty, Object)
+At PlanController.java:[line 8877]
+
+dimensionLineAngle = Math.toRadians(value != null ? ((Number)value).floatValue() : 0);
+either ((Number)value).floatValue() changes to ((Number)value).intValue() or 0 changes to 0f
+
+
+Bx	Primitive value is unboxed and coerced for ternary operator in com.eteks.sweethome3d.viewcontroller.PlanController$RoomDrawingState.updateEditableProperty(PlanController$EditableProperty, Object)
+Bug type BX_UNBOXED_AND_COERCED_FOR_TERNARY_OPERATOR (click for details) 
+In class com.eteks.sweethome3d.viewcontroller.PlanController$RoomDrawingState
+In method com.eteks.sweethome3d.viewcontroller.PlanController$RoomDrawingState.updateEditableProperty(PlanController$EditableProperty, Object)
+At PlanController.java:[line 9819]
+
+wallAngle = Math.toRadians(value != null ? ((Number)value).floatValue() : 0);
+either ((Number)value).floatValue() changes to ((Number)value).intValue() or 0 changes to 0f
+
+
+Bx	com.eteks.sweethome3d.viewcontroller.PlanController$WallDrawingState.setEditionActivated(boolean) invokes inefficient new Integer(int) constructor; use Integer.valueOf(int) instead
+Bug type DM_NUMBER_CTOR (click for details) 
+In class com.eteks.sweethome3d.viewcontroller.PlanController$WallDrawingState
+In method com.eteks.sweethome3d.viewcontroller.PlanController$WallDrawingState.setEditionActivated(boolean)
+Called method new Integer(int)
+Should call Integer.valueOf(int) instead
+At PlanController.java:[line 7294]
+
+can not fix that warning, coz this class must be compatible predating Java 1.5, which it is not allowed a primitive type in
+the Object array.
+
+
+
+Dodgy code Warnings
+
+FE	Test for floating point equality in com.eteks.sweethome3d.viewcontroller.PlanController.computeIntersection(float, float, float, float, float, float, float, float)
+Bug type FE_FLOATING_POINT_EQUALITY (click for details) 
+In class com.eteks.sweethome3d.viewcontroller.PlanController
+In method com.eteks.sweethome3d.viewcontroller.PlanController.computeIntersection(float, float, float, float, float, float, float, float)
+At PlanController.java:[line 2202]
+
+FE	Test for floating point equality in com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurnitureNameRotationState.moveMouse(float, float)
+Bug type FE_FLOATING_POINT_EQUALITY (click for details) 
+In class com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurnitureNameRotationState
+In method com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurnitureNameRotationState.moveMouse(float, float)
+At PlanController.java:[line 8256]
+Another occurrence at PlanController.java:[line 8256]
+
+FE	Test for floating point equality in com.eteks.sweethome3d.viewcontroller.PlanController$RoomAreaRotationState.moveMouse(float, float)
+Bug type FE_FLOATING_POINT_EQUALITY (click for details) 
+In class com.eteks.sweethome3d.viewcontroller.PlanController$RoomAreaRotationState
+In method com.eteks.sweethome3d.viewcontroller.PlanController$RoomAreaRotationState.moveMouse(float, float)
+At PlanController.java:[line 10284]
+Another occurrence at PlanController.java:[line 10284]
+
+FE	Test for floating point equality in com.eteks.sweethome3d.viewcontroller.PlanController$RoomNameRotationState.moveMouse(float, float)
+Bug type FE_FLOATING_POINT_EQUALITY (click for details) 
+In class com.eteks.sweethome3d.viewcontroller.PlanController$RoomNameRotationState
+In method com.eteks.sweethome3d.viewcontroller.PlanController$RoomNameRotationState.moveMouse(float, float)
+At PlanController.java:[line 10115]
+Another occurrence at PlanController.java:[line 10115]
+
+IA	Potentially ambiguous invocation of either an outer or inherited method com.eteks.sweethome3d.viewcontroller.PlanController$ControllerState.moveMouse(float, float) in com.eteks.sweethome3d.viewcontroller.PlanController$AbstractModeChangeState.deleteSelection()
+Bug type IA_AMBIGUOUS_INVOCATION_OF_INHERITED_OR_OUTER_METHOD (click for details) 
+In class com.eteks.sweethome3d.viewcontroller.PlanController$AbstractModeChangeState
+In method com.eteks.sweethome3d.viewcontroller.PlanController$AbstractModeChangeState.deleteSelection()
+Inherited method com.eteks.sweethome3d.viewcontroller.PlanController$ControllerState.moveMouse(float, float)
+Did you intend to invoke com.eteks.sweethome3d.viewcontroller.PlanController.moveMouse(float, float)
+At PlanController.java:[line 6021]
+
+it is only a abstract class, since the called method is not defined in the current class, it would class the super.
+
+
+IA	Potentially ambiguous invocation of either an outer or inherited method com.eteks.sweethome3d.viewcontroller.PlanController$ControllerState.moveMouse(float, float) in com.eteks.sweethome3d.viewcontroller.PlanController$AbstractModeChangeState.moveSelection(float, float)
+Bug type IA_AMBIGUOUS_INVOCATION_OF_INHERITED_OR_OUTER_METHOD (click for details) 
+In class com.eteks.sweethome3d.viewcontroller.PlanController$AbstractModeChangeState
+In method com.eteks.sweethome3d.viewcontroller.PlanController$AbstractModeChangeState.moveSelection(float, float)
+Inherited method com.eteks.sweethome3d.viewcontroller.PlanController$ControllerState.moveMouse(float, float)
+Did you intend to invoke com.eteks.sweethome3d.viewcontroller.PlanController.moveMouse(float, float)
+At PlanController.java:[line 6028]
+
+it is only a abstract class, since the called method is not defined in the current class, it would class the super.
+
+
+SF	Switch statement found in com.eteks.sweethome3d.viewcontroller.PlanController.getAreaPaths(Area) where default case is missing
+Bug type SF_SWITCH_NO_DEFAULT (click for details) 
+In class com.eteks.sweethome3d.viewcontroller.PlanController
+In method com.eteks.sweethome3d.viewcontroller.PlanController.getAreaPaths(Area)
+At PlanController.java:[lines 5266-5276]
+
+it is better to have a default although the cases covered the all conditio, coz another developer won't know those conditions.
+
+SF	Switch statement found in com.eteks.sweethome3d.viewcontroller.PlanController.getPath(Area) where default case is missing
+Bug type SF_SWITCH_NO_DEFAULT (click for details) 
+In class com.eteks.sweethome3d.viewcontroller.PlanController
+In method com.eteks.sweethome3d.viewcontroller.PlanController.getPath(Area)
+At PlanController.java:[lines 5332-5337]
+
+it is better to have a default although the cases covered the all condition, coz another developer won't know those conditions.
+
+
+SF	Switch statement found in com.eteks.sweethome3d.viewcontroller.PlanController$DimensionLineDrawingState.updateEditableProperty(PlanController$EditableProperty, Object) where default case is missing
+Bug type SF_SWITCH_NO_DEFAULT (click for details) 
+In class com.eteks.sweethome3d.viewcontroller.PlanController$DimensionLineDrawingState
+In method com.eteks.sweethome3d.viewcontroller.PlanController$DimensionLineDrawingState.updateEditableProperty(PlanController$EditableProperty, Object)
+At PlanController.java:[lines 8845-8852]
+
+it is better to have a default although the cases covered the all conditio, coz another developer won't know those conditions.
+
+
+SF	Switch statement found in com.eteks.sweethome3d.viewcontroller.PlanController$RoomDrawingState.updateEditableProperty(PlanController$EditableProperty, Object) where default case is missing
+Bug type SF_SWITCH_NO_DEFAULT (click for details) 
+In class com.eteks.sweethome3d.viewcontroller.PlanController$RoomDrawingState
+In method com.eteks.sweethome3d.viewcontroller.PlanController$RoomDrawingState.updateEditableProperty(PlanController$EditableProperty, Object)
+At PlanController.java:[lines 9790-9797]
+
+it is better to have a default although the cases covered the all conditio, coz another developer won't know those conditions.
+
+
+SF	Switch statement found in com.eteks.sweethome3d.viewcontroller.PlanController$WallDrawingState.updateEditableProperty(PlanController$EditableProperty, Object) where default case is missing
+Bug type SF_SWITCH_NO_DEFAULT (click for details) 
+In class com.eteks.sweethome3d.viewcontroller.PlanController$WallDrawingState
+In method com.eteks.sweethome3d.viewcontroller.PlanController$WallDrawingState.updateEditableProperty(PlanController$EditableProperty, Object)
+At PlanController.java:[lines 7366-7373]
+
+it is better to have a default although the cases covered the all conditio, coz another developer won't know those conditions.
+

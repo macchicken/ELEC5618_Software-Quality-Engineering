@@ -1,0 +1,28 @@
+work plan
+Select one functionality of your product for which to write a detailed test using FSMs.
+
+Communicate your choice of functionality to the rest of the team so that all members use a different one.
+
+Write a detailed description of the FSM used to test this functionality. The FSM must have at least three different paths all related to the same functionality. The decision of which path to select must be based on input data (which can be obtained visually by the tester if it refers to GUI elements).
+
+The FSM is going to be exercised by another member of the team, thus, it needs to be clearly stated.
+
+Include the description of the FSM in a formal test case description template containing information about the type of test, purpose, prerequisite, input data, etc.
+
+Select one team mate with whom you exchange the description of the test case with the FSM.
+
+Execute all the paths and verify the functionality specified by the FSM of your team mate.
+
+Report your results and impressions regarding the FSM and the overall description of the test case to your team mate. Suggest ways to improve the test or the description. It is important that these suggestions translate into an improvement on the way the test is specified.
+
+In the field with name Notes write about the changes that were done in the test case from the feedback you received from your team mate. Explain if these comments prompted you to modify your FSM.
+
+
+Assessment
+In the tutorial, one of your team mates will use the document containing your test case with the FSM to perform the test and report the result. Make sure you have the description ready.
+
+The test description resulting from the activity needs to be submitted for assessment in a folder with name 10_FSM. Full mark is obtained if:
+
+The test case is fully described with all the required fields.
+The FSM exercises multiple paths and is properly specified.
+The test case, in the Notes field contains a description of the changes derived from the feedback obtained by one of the team mates.

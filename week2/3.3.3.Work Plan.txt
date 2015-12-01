@@ -34,7 +34,7 @@ is completed yet before the product is shipped to the client
 a. run system test during each milestone of the development processes and identify the results,ensure the system function
 properly within acceptable range of error.
 b. run performance test to ensure meet the required performance while increasing in users over the next years.
-c. code and design inspection before deploying into the production enviroment.
+c. Code and design inspection before deploying into the staging test environment.
 
 
 

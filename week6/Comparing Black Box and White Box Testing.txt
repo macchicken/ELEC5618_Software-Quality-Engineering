@@ -1,0 +1,27 @@
+black box testing (BBT) and white box testing (WBT)
+
+1. What type of code portions are more likely tested by each method
+	WBT would be focus on testing the all the program block as much as possible, and data structures inside the system.
+	BBT would be cover attributes of system, including Correctness, Usability, Performance etc.
+it is to perform over the entire system, ensure the behaviour of system meet the system specification.
+
+2. When is each method more used during the development time of a product (earlier vs later)
+	WBT is more likely to be used during the earlier implementation of features, to ensure the proper function of each single block of codes.
+	BBT is more used during the later stage system test and integration test, which involves the interaction with interface
+from other modules.
+
+3. What type of defects to they focus on
+	WBT would focus on any deep logically and branch bugs, and language errors.
+	BBT would focus on defects or facults of the system, such as improper function, ui error and any performance issues.
+
+4. Which of these methods detects defects that are easier to fix
+	The defects detected from WBT would be much easier to fix, because it is mainly in the small block of the system with 
+less interfering with other blocks, and also the inputs of test cases are simple, makes origin of those defects be easier 
+to track down.	
+	The defects from BBT are for entire system, usually involve interactions with other modules or dependency systems,
+the inputs of test cases are more complicated and hard to find out the source of errors.
+
+5. What type of individual is more likely to perform each of the tests
+	WBT is usually done by people have implementation knowledge of certain features of the system.
+	BBT is usually carried out by test engineers or with knowing the entire specifications of the system, and people
+intend to use the interface of the target system or modules, do not need to know the implementation detail.

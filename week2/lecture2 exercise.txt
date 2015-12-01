@@ -1,0 +1,35 @@
+design review:
+inspect the design diagram for system arithecture, detail design of each function of system,
+evalute the hardware resource required, suggest any changes if needed
+
+preliminary design review: gives an idea to the users of what the system would look like, meet the requirement.
+
+critical design review: check technical design (how the system would work, giving the pictures for developer)
+
+program design review: conduct with developer to get feedback before implementation
+security design review
+
+code inspection:
+pair of people, define roles of people
+focus, finding bugs and performance, maintainability,memory leak(memory management)
+deliver feedback to author
+author should comfirm
+changes merge into a branch
+frequncy depends on the cases of developing things(featue)
+follow up the reiew schedule, set deadline
+
+defect reduction:
+daliy regression test
+unit test throughout the development(exposing the bugs by runing the test---prevention, or passing the testsuit by fixing the tested codes---reduction)
+store test data and analysis and result
+system test for logically implementation errors
+keeping the history of code
+bug assignment, find someone fix
+document the changes
+
+defect containment
+automated downgrade system or software
+stop transcation
+rollback to previous working version
+give a payback
+error control traffic

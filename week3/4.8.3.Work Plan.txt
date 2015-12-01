@@ -17,8 +17,13 @@ Create a document with the following points to be discussed in class. They all s
 
 
 2. Quality is achieved in certain part by reviewing the multiple steps during the development process. Describe what do you need to deploy, how would you implement, and what are the objectives of the following procedures: design review, code inspection.
-
-
+During deveoperment process, there should be people periodly evaluating the certain output of development tasks, such software
+requiresments specification, software detail design etc to ensure those documents follow standard, and review the design to ensure meet
+the requirements from users and detect any design error or misunderstanding of user requirements before implementation.
+During the implementation, code inspection and code-walkthrough after each period of implementation task, try to spot any logical
+bug, not good coding style and any missing test cases before deploying into testing environment. During the testing stage,
+taking control the progress of testing, periodly report the results of system test cases, the amount of detected bug,
+progress of fixing the bugs, and the completion of test cases.
 
 
 
@@ -39,3 +44,9 @@ Create a document with the following points to be discussed in class. They all s
 
 
 4. Enumerate the tools you need to deploy a quality plan. You must include all tools such as management support, change-control, testing, etc.
+HP quality center can store requirements of current version and link them to the test cases.
+It has a report showing the coverage for user requirements, ensure all the requirements are tested.
+Git code repository using branch to manage the different release version of current developed system, such as branching to
+development branch, test staging branch, uat branch.
+Quality center can manage the testing progress by progress reports, including report the complete percentage of each tested
+requirements, the detected bugs with priority, and status of each test cases.

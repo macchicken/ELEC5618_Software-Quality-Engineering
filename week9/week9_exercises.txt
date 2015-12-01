@@ -1,0 +1,53 @@
+Agile development
+
+Work for Outcome
+Whenever problems or issues raised, simply work out the solution while not to find out the source of error.
+
+Quick Fixes Become Quicksand, Damn the Torpedoes, Go Ahead
+continuous refactoring, increase the maintaiblilty of code, spend more times on reading previous code and workout
+the pricibile behind. Good unit testing also help.
+
+Criticize Ideas, Not People
+do not be afraid to give the idea, try to see the pros and cons of each ideas
+
+Keep up with change
+continuous learing
+
+Invest in Your Team
+
+Know when to unlearn
+get to know what is out date solution
+
+Question until you understand
+
+Feel the Rhythm
+continuously work on the samll tasks
+
+
+advantages
+1. fast iteration: product could continuously improve along the short duration for each iteration, not trying to shorten the short the time of work, but aiming to improve the quality as fast as possible.
+2. quick decision and try new idea: shorten requirement gathering and analysis, avoid spending long time on them, willing to start building the product with minimal requirements.
+3. quick improvement: fast response to the feedback and changes after each iteration, improve the quality with collaboration between developer, business analyst and customers.
+4. widely communication: face-to-face communication, such as daily stand-up meeting
+5. simplify flow: keep documentations simplest, high coding and design standard to establish test-driven and behavior-driven development, explain design and code in pairs instead of documenting them thoroughly.
+ 
+disadvantages:
+while project size is growing, face-to-face communication would be more difficult, agile seems to fit with small team such as only 40 people.
+Initial large amount of assumption and quick requirements gathering could lead the project to the wrong way,
+since only effective feedback can help the improvement, large amount of useless feedback can worse the design of a product, do not notice the wrong thing until last submit, even more affords need to spend on redesign at that time.
+ 
+
+Therefore, the good automation tools and a management tool are needed to support the version control, progress tracking, assignment of workload, iteration planning and defects and bugs tracking in the project.
+Agile is quite suitable for starting up the product, but we should pay attention to level of minimal requirements and quality of feedback.
+
+
+SCRUM:
+Scrum defines role, events, artifacts and rules of organizing them. It is a framework that people could resolve complex issues by adopting it, and deliver the high quality product in productive and creative way.
+
+Role: it defines various type of responsibility of people in the scrum team, enhance the productivity, creativity and flexibility.
+Event: it defines some common incidents occurred in the scrum project team, which has timeline. It has chances to evaluate and adjust.
+Artifact: it express the work task and its value in the scrum project, which is used to evaluate and adjust the works, ensure the transparency of information.
+Transparency
+Inspection
+Adaptation
+http://www.scrumguides.org/docs/scrumguide/v1/Scrum-Guide-US.pdf#zoom=100

@@ -1,0 +1,42 @@
+ES	Comparison of String parameter using == or != in com.eteks.sweethome3d.viewcontroller.PhotosController.setFileFormat(String)
+Bug type ES_COMPARING_PARAMETER_STRING_WITH_EQ (click for details) 
+In class com.eteks.sweethome3d.viewcontroller.PhotosController
+In method com.eteks.sweethome3d.viewcontroller.PhotosController.setFileFormat(String)
+Actual type String
+Value loaded from field com.eteks.sweethome3d.viewcontroller.PhotosController.fileFormat
+Value loaded from fileFormat
+At PhotosController.java:[line 186]
+
+not quite good to compare with string using ==, whick compares the address of objects not the actual string content
+
+
+RC	Suspicious comparison of Float references in com.eteks.sweethome3d.viewcontroller.PhotosController.setFileCompressionQuality(Float)
+Bug type RC_REF_COMPARISON (click for details) 
+In class com.eteks.sweethome3d.viewcontroller.PhotosController
+In method com.eteks.sweethome3d.viewcontroller.PhotosController.setFileCompressionQuality(Float)
+Actual type Float
+Value loaded from field com.eteks.sweethome3d.viewcontroller.PhotosController.fileCompressionQuality
+Value loaded from fileCompressionQuality
+At PhotosController.java:[line 205]
+
+not quite good to compare with string using ==, whick compares the address of objects not the actual string content
+
+
+UR	home isn't initialized in com.eteks.sweethome3d.viewcontroller.PhotosController.updateProperties() when invoked from constructor for superclass
+Bug type UR_UNINIT_READ_CALLED_FROM_SUPER_CONSTRUCTOR (click for details) 
+In class com.eteks.sweethome3d.viewcontroller.PhotosController
+In method com.eteks.sweethome3d.viewcontroller.PhotosController.updateProperties()
+Field com.eteks.sweethome3d.viewcontroller.PhotosController.home
+Superclass constructor is new com.eteks.sweethome3d.viewcontroller.AbstractPhotoController(Home, UserPreferences, View, ContentManager)
+Call from superclass constructor at AbstractPhotoController.java:[line 71]
+Constructor is new com.eteks.sweethome3d.viewcontroller.PhotosController(Home, UserPreferences, View, ViewFactory, ContentManager)
+Field set (too late) at PhotosController.java:[line 59]
+At PhotosController.java:[line 130]
+Another occurrence at PhotosController.java:[line 132]
+Another occurrence at PhotosController.java:[line 133]
+
+the implementation of updateProperties in the subclass already has null check for the home, 
+but it do has the times when home is null in abstract superclass, but parent do not have null check.
+Both home in the parent and child is private and would be exist 2 references to a object, since they use on the same method,
+consider to remove the home attribute in the child and make the access level of parent's home to protected,
+have a null check just in the parent.

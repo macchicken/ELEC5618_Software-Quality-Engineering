@@ -1,0 +1,29 @@
+7.5
+
+08_cyclomatic
+
+
+09_bottom_up
+(-1)
+No description of how bottom-up testing was done is given.
+
+10_FSM
+(-0.5)
+Please review FSM. Normally nouns are the states and verbs are the transitions.
+
+11_Markov_chain
+(-2)
+FSM and probability calculation is not consistent.
+No description of how probability is calculated is given. Cannot make connect between FSM and probability
+
+12_Agile_dev
+(-2)
+Duplicated work
+
+13_Agile_week
+(-2)
+Duplicated work
+
+Again, feel free to contact the tutors or the course lecture regarding the mark of assignment 2.
+
+Regards,

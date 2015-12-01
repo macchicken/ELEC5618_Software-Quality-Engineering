@@ -1,0 +1,17 @@
+Select one class that is part of your product. The class has to have at least 5 methods.
+Talk to the rest of your team mates to make sure everybody uses a different class (no repetitions allowed).
+Write a test case that provides complete coverage of the following aspects with respect to the class:
+Setting and accessing all the variables.
+Testing all the methods in the object.
+Testing all the object state (if applicable).
+
+Analyze the code in the class for which you have written the test case. Select (at least two) additional classes used by this one to build a bottom-up test case.
+Combine the class for which you already have the test cases with the additional classes and write a test that exercises the functionality provided by these classes. Testing the access to the attributes is no longer required. Your test has to focus on executing the functionality resulting from combining all the classes.
+
+Assessment
+The code resulting from the test of these classes needs to be submitted for assessment in folder 09_bottom_up. Full mark is obtained if:
+
+The test cases truly execute the combined functionality of the classes.
+The test cases are self-contained, that is, only two steps, compile-execute are needed.
+The test cases are thoroughly documented. That is, there is text (comments) explaining the type of functionality being exercised by each case.
+The combined classes have non-trivial functionality. Classes that simply offer methods to set/retrieve their attributes are highly discouraged.
